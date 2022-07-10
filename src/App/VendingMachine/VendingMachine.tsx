@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './VendingMachine.css';
 
 class VendingMachine extends Component {
@@ -9,9 +10,9 @@ class VendingMachine extends Component {
         <div></div>
         <div className='VendingMachine-box'>
             <ul>
-                <li><a href='#'>Soda</a></li>
-                <li><a href='#'>Chips</a></li>
-                <li><a href='#'>Sardines</a></li>
+                <li><Link to={'/soda'}>Soda</Link></li>
+                <li><Link to={'/chips'}>Chips</Link></li>
+                <li><Link to={'/sardines'}>Sardines</Link></li>
             </ul>
         </div>
       </div>
