@@ -1,3 +1,7 @@
 export interface ChipsState {
-    chipsEaten: number
+    chipsEaten: number,
+    chips: {
+        left: number,
+        top: number
+    }[]
 }

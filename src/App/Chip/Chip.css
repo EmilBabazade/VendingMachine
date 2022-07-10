@@ -1,0 +1,6 @@
+.Chip-img {
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    position: absolute;
+}
