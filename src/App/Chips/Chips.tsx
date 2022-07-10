@@ -32,7 +32,7 @@ export default class Chips extends Component<any, ChipsState> {
                 {this.state.chips.map((c, i) => <Chip key={i} left={c.left} top={c.top} />)}
                 <div>BAGS EATEN: {chipsEaten}</div>
                 <button className='Chips-button' onClick={this.eat}>NOM NOM NOM</button>
-                <li><Link to={'/'}>GO BACK</Link></li>
+                <Link style={{display: 'block'}} to={'/'}>GO BACK</Link>
             </div>
         </div>
     }
