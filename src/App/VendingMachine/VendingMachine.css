@@ -10,9 +10,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  .VendingMachine-box {
+}
+
+.VendingMachine-box {
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.162);
     font-size: 3rem;
     color: white;
@@ -20,15 +21,28 @@
     padding: 15px;
     border-radius: 10%;
     text-transform: uppercase;
-  }
-  
-  .VendingMachine-container {
+}
+
+.VendingMachine-container {
     display: flex;
     width: 95%;
     justify-content: space-between;
     margin-left: 3%;
-  }
-  
-  .VendingMachine-container div {
+}
+
+.VendingMachine-container div {
     flex: 1;
-  }
+}
+
+.VendingMachine-box li {
+    list-style-type: none; 
+}
+
+.VendingMachine-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.VendingMachine-box a:hover {
+    text-decoration: underline;
+}

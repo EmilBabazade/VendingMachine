@@ -7,7 +7,13 @@ class VendingMachine extends Component {
       <div className='VendingMachine-container'>
         <div className='VendingMachine-box'>Hello I am a vending machine. What would you like to eat?</div>
         <div></div>
-        <div className='VendingMachine-box'>Good Bye</div>
+        <div className='VendingMachine-box'>
+            <ul>
+                <li><a href='#'>Soda</a></li>
+                <li><a href='#'>Chips</a></li>
+                <li><a href='#'>Sardines</a></li>
+            </ul>
+        </div>
       </div>
     </div>
   }
